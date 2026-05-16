@@ -1,0 +1,16 @@
+----------------:----------------
+PARTIDA USUARIO: Pasapalabra
+dificultad:Infantil
+Nombre usuario:dan
+aciertos partida:0
+fallos partida:26
+pasapalabra partida:0
+----------------:----------------
+----------------:----------------
+PARTIDA USUARIO: Pasapalabra
+dificultad:Infantil
+Nombre usuario:dan
+aciertos partida:0
+fallos partida:26
+pasapalabra partida:0
+----------------:----------------

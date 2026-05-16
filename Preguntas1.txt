@@ -1,0 +1,26 @@
+A;Empieza con la A:Color principal de un platano maduro;Amarillo
+B;Empieza con la B:Conjunto extenso de árboles y arbustos en territorio natural;Bosque
+C;Empieza con la C:Núcleo urbano de tamaño elevado, con servicios y población concentrada;Ciudad
+D;Empieza con la D:Cuerpo geométrico de seis caras idénticas, usado en juegos de azar;Dado
+E;Empieza con la E:Acción y efecto de escribir signos sobre papel u otro soporte;Escritura
+F;Empieza con la F:Narración ficticia breve, habitualmente con intención moralizante;Fabula
+G;Empieza con la G:Parte del mar parcialmente rodeada por tierra y de gran extensión;Golfo
+H;Empieza con la H:Herramienta con mango y hoja metálica, usada para partir madera;Hacha
+I;Empieza con la I:Conjunto de técnicas destinadas al tratamiento automático de la información;Informatica
+J;Empieza con la J:Sustancia jabonosa que se usa para lavar la piel u objetos;Jabon
+K;Empieza con la K:Unidad de masa del Sistema Internacional equivalente a mil gramos;Kilogramo
+L;Empieza con la L:Establecimiento destinado a la venta de libros;Libreria
+M;Empieza con la M:Elevación considerable del terreno, más alta que una colina;Montaña
+N;Empieza con la N:Ciencia que estudia la nutrición y sus efectos sobre organismos;Nutricion
+O;Empieza con la O:Movimiento ondulatorio del agua en el mar, con crestas y valles;Ola
+P;Empieza con la P:Embarcación pequeña, por lo general con vela, usada para navegar;Patin
+Q;Empieza con la Q:Producto obtenido por la cuajada de la leche, de sabor salado o suave;Queso
+R;Empieza con la R:Corriente natural de agua que fluye por cauce hacia otro cuerpo de agua;Rio
+S;Empieza con la S:Mueble con asiento y respaldo donde puede sentarse una persona;Silla
+T;Empieza con la T:Aparato que sirve para comunicarse a distancia por voz;Telefono
+U;Empieza con la U:Conjunto de todo lo existente, real o imaginable;Universo
+V;Empieza con la V:Embarcación desplazada por el viento mediante velas;Velero
+W;Empieza con la W:Bebida alcohólica destilada hecha a base de cereales;Whisky
+X;Empieza con la X:Instrumento musical de láminas o placas de madera o metal, golpeadas con mazos;Xilofono
+Y;Empieza con la Y:Embarcación de recreo, habitualmente ligera, usada en ocio;Yate
+Z;Empieza con la Z:Mamífero carnívoro de tamaño medio, con pelaje rojizo y cola larga;Zorro
