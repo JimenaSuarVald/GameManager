@@ -1,6 +1,6 @@
 package main;
 
-import modelo.Usuario;
+import modelo.Persona;
 import vista.InicioSesion;
 import vista.MenuPrincipal;
 
@@ -10,7 +10,7 @@ public class Main {
 
         InicioSesion inicioSesion = new InicioSesion();
 
-        Usuario usuario = inicioSesion.iniciarSesion();
+        Persona usuario = inicioSesion.iniciarSesion();
 
         if (usuario != null) {
             MenuPrincipal menu = new MenuPrincipal();

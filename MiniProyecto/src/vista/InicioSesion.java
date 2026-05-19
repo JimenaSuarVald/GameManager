@@ -1,25 +1,22 @@
 package vista;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-import modelo.Usuario;
+import gestion.GestionUsuarios;
+import modelo.Persona;
 
 public class InicioSesion {
 
-    private ArrayList<Usuario> usuarios;
     private Scanner teclado;
+    private GestionUsuarios gestion;
 
     public InicioSesion() {
 
-        usuarios = new ArrayList<>();
         teclado = new Scanner(System.in);
-
-        usuarios.add(new Usuario("admin", "admin123", true));
-        usuarios.add(new Usuario("jose", "1234", false));
+        gestion = new GestionUsuarios();
     }
 
-    public Usuario iniciarSesion() {
+    public Persona iniciarSesion() {
 
         System.out.println("===== INICIO DE SESIÓN =====");
 
@@ -29,18 +26,16 @@ public class InicioSesion {
         System.out.print("Contraseña: ");
         String contraseña = teclado.nextLine();
 
-        for (Usuario usuario : usuarios) {
+        Persona persona = gestion.iniciarSesion(nombre, contraseña);
 
-            if (usuario.getNombre().equals(nombre)
-                    && usuario.getContraseña().equals(contraseña)) {
+        if (persona != null) {
 
-                System.out.println("Inicio de sesión correcto.");
+            System.out.println("Inicio correcto");
 
-                return usuario;
-            }
+            return persona;
         }
 
-        System.out.println("Usuario o contraseña incorrectos.");
+        System.out.println("Datos incorrectos");
 
         return null;
     }
