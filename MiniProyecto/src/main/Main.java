@@ -1,5 +1,6 @@
 package main;
 
+import gestion.GestionUsuarios;
 import modelo.Persona;
 import vista.InicioSesion;
 import vista.MenuPrincipal;
@@ -8,15 +9,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        InicioSesion inicioSesion = new InicioSesion();
+        GestionUsuarios gestionUsuarios = new GestionUsuarios();
 
-        Persona usuario = inicioSesion.iniciarSesion();
+        InicioSesion inicioSesion = new InicioSesion(gestionUsuarios);
 
-        if (usuario != null) {
-            MenuPrincipal menu = new MenuPrincipal();
-            menu.mostrarMenu(usuario);
+        Persona persona = inicioSesion.mostrarInicio();
+
+        if (persona != null) {
+
+            MenuPrincipal menu = new MenuPrincipal(gestionUsuarios);
+            menu.mostrarMenu(persona);
+
         } else {
-            System.out.println("No se puede acceder al menú principal.");
+
+            System.out.println("Aplicación finalizada.");
         }
     }
 }

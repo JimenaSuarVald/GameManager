@@ -7,7 +7,6 @@ public class Persona {
     protected int numeroLogins;
 
     public Persona(String nombre, String contraseña) {
-
         this.nombre = nombre;
         this.contraseña = contraseña;
         this.numeroLogins = 0;
