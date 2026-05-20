@@ -19,8 +19,7 @@ public class GestorArchivos {
     // ---------------------------------------------------------------
     public static void guardarUsuarios(ArrayList<Persona> lista) {
 
-        // Creamos la carpeta "datos" si no existe todavia
-        new File("datos").mkdirs();
+
 
         try {
             BufferedWriter bw = new BufferedWriter(new FileWriter(RUTA_USUARIOS));
