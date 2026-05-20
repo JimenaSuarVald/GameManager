@@ -1,8 +1,7 @@
 package modelo;
 
 public abstract class Persona { 
-    /* Funciona como un contador global para asignar IDs. De momento le asignamos por orden el id a cada usuario,
-       mas adelante v podemos hacer para que ellos creen el suyo propio */
+//Contador de IDS
     private static int contadorId = 1;
 
     // Atributos privados (Encapsulación)
@@ -13,7 +12,7 @@ public abstract class Persona {
     // Constructor de nuestra clase "madre"
     public Persona(String nombre, String contraseña) {
         this.id = contadorId;
-        contadorId++; // Incrementa para que el siguiente registrado tenga el siguiente ID
+        contadorId++; 
         this.nombre = nombre;
         this.contraseña = contraseña;
     }

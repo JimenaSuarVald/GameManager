@@ -4,57 +4,66 @@ import java.util.ArrayList;
 
 public class GestionUsuarios {
 
-    // La lista única donde se guardará todo mientras el programa esté encendido
+    // Lista unica donde se guarda todo mientras el programa esta abierto
     private ArrayList<Persona> listaPersonas;
 
     public GestionUsuarios() {
-        this.listaPersonas = new ArrayList<>();
-        
-        // Esto son users de prueba pra testear q funcione sin hacer login
-        this.listaPersonas.add(new Administrador("admin", "admin123"));
-        this.listaPersonas.add(new Jugador("diego", "paso1"));
-        this.listaPersonas.add(new Jugador("jose", "1234"));
+        // Intentamos cargar los usuarios guardados del txt
+        this.listaPersonas = GestorArchivos.cargarUsuarios();
+        if (this.listaPersonas == null) {
+            this.listaPersonas = new ArrayList<>();
+        }
+
     }
 
-    // registro del jugador ( dar de alta)
+    // Registro del jugador (dar de alta)
     public boolean registrarJugador(String nombre, String contraseña) {
-        // Comprobamos si el nombre ya existe para que no haya duplicados
+        // Comprobamos que el nombre no este ya pillado
         if (buscarUsuarioPorNombre(nombre) != null) {
-            return false; // si está pillado el nombre te da false
+            return false;
         }
-        
-        // Si está libre, creamos el jugador y lo añadimos
+
         Jugador nuevo = new Jugador(nombre, contraseña);
         listaPersonas.add(nuevo);
-        return true; // Registro completado
+
+        // Guardamos en el txt para que no se pierda
+        GestorArchivos.guardarUsuarios(listaPersonas);
+        return true;
     }
 
-    // metodo de comprobacion del login para ver si es correcto
+    // Comprobacion del login
     public Persona comprobarAutenticacion(String nombre, String contraseña) {
         Persona usuario = buscarUsuarioPorNombre(nombre);
-        
-        // Si existe y la contraseña coincide, lo devolvemos
+
         if (usuario != null && usuario.getContraseña().equals(contraseña)) {
-            // Si además es un jugador, aprovechamos para sumarle el acceso (lo que pedía Crisenti que está en la calse perosna)
+
+            // Si es jugador le sumamos un acceso
             if (usuario instanceof Jugador) {
                 ((Jugador) usuario).incrementarAccesos();
+                GestorArchivos.guardarUsuarios(listaPersonas);
             }
             return usuario;
         }
-        return null; // Si falla devuelve null
+        return null;
     }
 
-    // metodo buscador de usuarios ( aqui tengo algunas dudas y a partir de aqui he tirado de gemini, queda darle una vuelta para entenderlo
-      private Persona buscarUsuarioPorNombre(String nombre) {
+    // Buscador interno por nombre (sin distinguir mayusculas)
+    private Persona buscarUsuarioPorNombre(String nombre) {
         for (Persona p : listaPersonas) {
             if (p.getNombre().equalsIgnoreCase(nombre)) {
-                return p; // Encontrado
+                return p;
             }
         }
-        return null; // No existe
+        return null;
     }
 
-    // GETTER PARA EL ADMIN 
+    /* Metodo para guardar desde fuera cuando se actualiza algo
+       por ejemplo al terminar una partida y actualizar puntuacion */
+    public void guardar() {
+        GestorArchivos.guardarUsuarios(listaPersonas);
+    }
+
+    // Getter para que el admin pueda ver la lista completa
     public ArrayList<Persona> getListaPersonas() {
         return listaPersonas;
     }
