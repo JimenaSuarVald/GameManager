@@ -1,0 +1,5 @@
+JUGADOR;Jimena;50
+CLASE;Estudiante
+ARMA;Cuaderno viejo
+MOCHILA;Vial Pequeño,Vial Pequeño,Vial Pequeño
+PROGRESO;21

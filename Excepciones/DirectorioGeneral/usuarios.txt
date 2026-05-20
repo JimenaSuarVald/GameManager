@@ -1,0 +1,2 @@
+ADMIN;admin;admin123;11
+JUGADOR;jose;1234;0;0;0;0;0

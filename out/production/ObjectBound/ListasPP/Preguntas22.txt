@@ -1,0 +1,26 @@
+A;empieza por A:Continente cubierto de hielo en el hemisferio sur;Antartida
+B;empieza por B:Persona que estudia los seres vivos;Biologo
+C;empieza por C:Grupo de estrellas que forman un patrón en el cielo;Constelacion
+D;empieza por D:Proceso para separar líquidos mediante evaporación y condensación;Destilacion
+E;empieza por E:Capacidad de realizar trabajo o provocar cambios;Energia
+F;empieza por F:Restos de organismos antiguos conservados en la Tierra;Fosil
+G;empieza por G:Gran masa de hielo que se mueve lentamente;Glaciar
+H;empieza por H:Explicación tentativa que se propone para un fenómeno;Hipotesis
+I;empieza por I:Lista organizada de contenidos o conceptos;Indice
+J;empieza por J:Planeta más grande del sistema solar;Jupiter
+K;empieza por K:Animal marsupial que vive en Australia;Koala
+L;empieza por L:Construcción con caminos complejos y confusos;Laberinto
+M;empieza por M:Fragmento de roca espacial que llega a la Tierra;Meteorito
+N;empieza por N:Células del sistema nervioso que transmiten información;Neuronas
+O;empieza por O:Gas esencial para la respiración de los seres vivos;Oxigeno
+P;empieza por P:Construcción antigua de forma triangular;Piramide
+Q;empieza por Q:Objeto astronómico muy brillante y lejano que emite radiación;Quasar
+R;empieza por R:Proceso de convertir materiales usados en nuevos productos;Reciclaje
+S;empieza por S:Instrumento que registra los movimientos de la Tierra;Sismografo
+T;empieza por T:Estudio de los movimientos y cambios de la corteza terrestre;Tectonica
+U;empieza por U:Tipo de radiación que viene del sol y no es visible;Ultravioleta
+V;empieza por V:Flujo de aire o líquido que gira formando un remolino;Vortice
+W;empieza por W:Unidad de potencia eléctrica;Watt
+X;empieza por X:Planta adaptada a vivir en lugares muy secos;Xerofilo
+Y;empieza por Y:Lugar donde se encuentran restos arqueológicos o minerales;Yacimiento
+Z;empieza por Z:Forma de línea con ángulos alternos y continuos;Zigzag

@@ -1,0 +1,26 @@
+A;Empieza con la A:Líquido vital, transparente e inodoro que cubre la mayor parte de la Tierra;Agua
+B;Empieza con la B:Objeto redondo que se utiliza en una gran variedad de deportes y juegos;Balon
+C;Empieza con la C:Órgano vital que bombea la sangre a todo el cuerpo y se asocia al amor;Corazon
+D;Empieza con la D:Pieza de marfil o hueso en la boca que sirve para cortar y triturar los alimentos;Diente
+E;Empieza con la E:Cuerpo celeste que brilla con luz propia en el cielo nocturno;Estrella
+F;Empieza con la F:Emisión de luz y calor producida por la combustión de una materia;Fuego
+G;Empieza con la G:Precipitacion acuosa en forma de gotas que cae de las nubes;Lluvia
+H;Empieza con la H:Elemento rígido que forma el esqueleto de los seres humanos y animales;Hueso
+I;Empieza con la I:La palabra que define lo unico y especial;Iconico
+J;Empieza con la J:Actividad recreativa sometida a reglas, que sirve para entretenerse;Juego
+K;Empieza con la K:Unidad de medida de longitud que equivale a mil metros;Kilometro
+L;Empieza con la L:Fluido biológico de color rojo que recorre las venas y arterias;Sangre
+M;Empieza con la M:Extensión inmensa de agua salada que cubre la mayor parte del planeta;Mar
+N;Empieza con la N:Momento del día que comienza cuando el Sol se oculta y oscurece;Noche
+O;Empieza con la O:Metal precioso de color amarillo, muy valorado desde la antigüedad;Oro
+P;Empieza con la P:Alimento básico elaborado con harina, agua y levadura que se hornea;Pan
+Q;Empieza con la Q:Acción de destruir o consumir algo por medio del fuego;Quemar
+R;Empieza con la R:Luz intensa y repentina que se produce por una descarga eléctrica en la tormenta;Rayo
+S;Empieza con la S:Estrella luminosa que es la principal fuente de energía y calor de la Tierra;Sol
+T;Empieza con la T:Planeta que habitamos, el tercero en distancia desde el Sol;Tierra
+U;Empieza con la U:Elemento plano y endurecido que protege la punta de los dedos;Uña
+V;Empieza con la V:Corriente de aire producida en la atmósfera por causas naturales;Viento
+W;Empieza con la W:Red informática mundial que permite la consulta de páginas de internet;Web
+X;Empieza con la X:Instrumento musical de percusión formado por láminas que suenan al ser golpeadas;Xilofono
+Y;Empieza con la Y:Elemento metálico o mineral que se encuentra en la naturaleza;Hierro
+Z;Empieza con la Z:Área o espacio delimitado que se caracteriza por determinadas condiciones;Zona

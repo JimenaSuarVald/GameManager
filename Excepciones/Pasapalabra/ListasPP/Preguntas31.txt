@@ -1,0 +1,26 @@
+A;empieza por A:Conjunto de instrucciones que sigue un ordenador para realizar tareas;Algoritmo
+B;empieza por B:Tecnología que permite registrar transacciones de forma segura y descentralizada;Blockchain
+C;empieza por C:Moneda digital que utiliza criptografía para asegurar las transacciones;Cryptomoneda
+D;empieza por D:Sistema de organización política en el que el poder reside en el pueblo;Democracia
+E;empieza por E:Acción de iniciar y gestionar un proyecto propio;Emprendimiento
+F;empieza por F:Relativo a la conversión de la luz solar en energía eléctrica;Fotovoltaico
+G;empieza por G:Uso de mecánicas de juego en contextos no lúdicos para motivar;Gamificación
+H;empieza por H:Imagen tridimensional creada con luz o láser;Holograma
+I;empieza por I:Capacidad de aprender, razonar y resolver problemas;Inteligencia
+J;empieza por J:Género musical afroamericano caracterizado por improvisación;Jazz
+K;empieza por K:Actividad de cantar canciones conocidas acompañado de música;Karaoke
+L;empieza por L:Capacidad de dirigir y motivar a un grupo de personas;Liderazgo
+M;empieza por M:Conjunto de técnicas para promover productos o servicios;Marketing
+N;empieza por N:Ideología económica que promueve el libre mercado;Neoliberal
+O;empieza por O:Acción de hacer más eficaz o eficiente un proceso;Optimizacion
+P;empieza por P:Archivo de audio o vídeo distribuido digitalmente, generalmente por internet;Podcast
+Q;empieza por Q:Relacionado con la física que estudia partículas y fenómenos subatómicos;Quantico
+R;empieza por R:Percepción o interpretación de lo que es verdadero;Realidad
+S;empieza por S:Capacidad de mantener recursos y ecosistemas sin agotarlos;Sostenibilidad
+T;empieza por T:Transmisión de información a distancia mediante tecnología;Telecomunicacion
+U;empieza por U:Idea de un lugar o situación ideal e inalcanzable;Utopia
+V;empieza por V:Contenido que se difunde rápidamente por internet;Viral
+W;empieza por W:Red inalámbrica para conectarse a internet;Wifi
+X;empieza por X:Actitud de rechazo o miedo hacia personas de otros países o culturas;Xenofobia
+Y;empieza por Y:Práctica física y mental que busca equilibrio y bienestar;Yoga
+Z;empieza por Z:Estado de tranquilidad, meditación o calma profunda;Zen
