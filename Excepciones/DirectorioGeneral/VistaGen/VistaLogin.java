@@ -18,9 +18,15 @@ public class VistaLogin extends JFrame {
         this.setLocationRelativeTo(null);
 
         PanelFondo fondo = new PanelFondo(new GridBagLayout());
-        fondo.cargarFondo("DirectorioGeneral/RecursosGen/UI/fondo_login.png");
+        fondo.cargarFondo("DirectorioGeneral/Recursos/UI/fondo_login.png");
 
         JPanel card = new JPanel(new GridBagLayout());
+        card.setOpaque(true);
+        card.setBackground(new Color(35, 35, 45));
+        card.setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createLineBorder(Color.WHITE, 1),
+                BorderFactory.createEmptyBorder(25, 35, 25, 35)
+        ));
 
         GridBagConstraints c = new GridBagConstraints();
         c.insets = new Insets(8, 5, 8, 5);
@@ -28,14 +34,14 @@ public class VistaLogin extends JFrame {
         c.gridx = 0; c.gridy = 0; c.gridwidth = 2;
         c.anchor = GridBagConstraints.CENTER;
         JLabel titulo = new JLabel("INICIO DE SESION");
-        titulo.setForeground(Color.BLACK);
+        titulo.setForeground(Color.WHITE);
         titulo.setFont(new Font("SansSerif", Font.BOLD, 22));
         card.add(titulo, c);
 
         c.gridy = 1; c.gridwidth = 1;
         c.gridx = 0; c.anchor = GridBagConstraints.WEST;
         JLabel lblU = new JLabel("Usuario:");
-        lblU.setForeground(Color.BLACK);
+        lblU.setForeground(Color.WHITE);
         lblU.setFont(new Font("SansSerif", Font.PLAIN, 14));
         card.add(lblU, c);
 
@@ -44,8 +50,8 @@ public class VistaLogin extends JFrame {
         card.add(campoUsuario, c);
 
         c.gridx = 0; c.gridy = 2;
-        JLabel lblP = new JLabel("Contraseña:");
-        lblP.setForeground(Color.BLACK);
+        JLabel lblP = new JLabel("Contrasena:");
+        lblP.setForeground(Color.WHITE);
         lblP.setFont(new Font("SansSerif", Font.PLAIN, 14));
         card.add(lblP, c);
 

@@ -1,11 +1,11 @@
 import VistaGen.VistaLogin;
-import ModeloGen.GestionUsuarios;
+import ModeloGen.GestorUsuarios;
 import ControlGen.ControladorLogin;
 
 public class MainManager {
     public static void main(String[] args) {
-        GestionUsuarios gestion = new GestionUsuarios();
+        GestorUsuarios gestor = new GestorUsuarios();
         VistaLogin login = new VistaLogin();
-        new ControladorLogin(login, gestion);
+        new ControladorLogin(login, gestor);
     }
 }

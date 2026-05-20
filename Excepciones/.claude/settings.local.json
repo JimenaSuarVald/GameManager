@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/jimen/ObjectBound/Excepciones\" && echo \"=== ESTRUCTURA COMPLETA ===\" && find . -type f -not -path \"*/.idea*\" -not -path \"*/out*\" | sort && echo \"\" && echo \"=== TAMAÑO DEL .iml ===\" && cat ObjectBound.iml 2>/dev/null || cat ../ObjectBound.iml 2>/dev/null)",
+      "Bash(echo \"=== RUTAS HARDCODED \\(C:\\\\\\\\\\) ===\")"
+    ]
+  }
+}

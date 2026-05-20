@@ -2,19 +2,18 @@ package ControlGen;
 
 import VistaGen.VistaLogin;
 import VistaGen.VistaManager;
-import ModeloGen.Persona;
-import ModeloGen.GestionUsuarios;
-import ModeloGen.JugadorActivo;
+import ModeloGen.Usuario;
+import ModeloGen.GestorUsuarios;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ControladorLogin implements ActionListener {
     private VistaLogin vista;
-    private GestionUsuarios gestion;
+    private GestorUsuarios gestor;
 
-    public ControladorLogin(VistaLogin vista, GestionUsuarios gestion) {
+    public ControladorLogin(VistaLogin vista, GestorUsuarios gestor) {
         this.vista = vista;
-        this.gestion = gestion;
+        this.gestor = gestor;
         this.vista.setControlador(this);
     }
 
@@ -27,14 +26,13 @@ public class ControladorLogin implements ActionListener {
                 vista.mostrarError("Introduce usuario y contrasena.");
                 return;
             }
-            Persona p = gestion.iniciarSesion(nombre, contraseña);
-            if (p == null) {
+            Usuario u = gestor.autenticar(nombre, contraseña);
+            if (u == null) {
                 vista.mostrarError("Usuario o contrasena incorrectos.");
             } else {
-                JugadorActivo.set(p, gestion);
                 vista.dispose();
-                VistaManager menu = new VistaManager(p);
-                new ControladorManager(menu, p, gestion);
+                VistaManager menu = new VistaManager(u);
+                new ControladorManager(menu, u, gestor);
             }
         }
     }

@@ -172,10 +172,10 @@ public class ControladorJuego implements ActionListener {
         }
         combateActual.limpiarMensajes();
     }
+
     private void comprobarFinCombate() {
         EstadoCombate estado = combateActual.getEstado();
         if (estado == EstadoCombate.VICTORIA) {
-            ModeloGen.JugadorActivo.registrarPartida(100, true);
             Capitulo c = capitulos[capituloActual];
             String mensaje = "Has vencido el combate.";
             if (c.tieneRecompensas()) {
@@ -193,7 +193,6 @@ public class ControladorJuego implements ActionListener {
             capituloActual++;
             mostrarCapituloActual();
         } else if (estado == EstadoCombate.DERROTA) {
-            ModeloGen.JugadorActivo.registrarPartida(0, false);
             combateActual = null;
             gestorPartidas.borrar(partida.getUsuario());
             vista.dispose();
@@ -204,7 +203,6 @@ public class ControladorJuego implements ActionListener {
     }
 
     private void terminarHistoria() {
-        ModeloGen.JugadorActivo.registrarPartida(500, true);
         gestorPartidas.borrar(partida.getUsuario());
         vista.dispose();
         PantallaVictoria pv = new PantallaVictoria();
