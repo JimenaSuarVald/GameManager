@@ -1,0 +1,17 @@
+Vial Pequeño;Curar;25;Cura heridas leves
+Vial Mediano;Curar;50;Cura heridas moderadas
+Vial Grande;Curar;100;Cura daños graves
+Bomba Fuego;Daño;40;Explota causando quemaduras
+Bomba de Humo;Escapar;0;Permite huir
+Bebida energética;TurnoExtra;0;Otorga otro turno a el jugador
+Especias Picantes;Ceguera;0;El enemigo pierde un turno
+Cuaderno viejo;EquipajeAtaque;10;Un pequeño cuaderno arrugado que utilizas para tomar apuntes en momentos desesperados
+Libro de Java;EquipajeAtaque;30;Un libro sacado de la biblioteca para entender el profético lenguaje de Java
+Tomo profético;EquipajeAtaque;50;Este tomo indica exactamente que se tiene que hacer en cada momento de desesperación
+Tiza desgastada;EquipajeAtaque;10;Vieja tiza que se rompe solo con mirarla
+Pizarra electrónica;EquipajeAtaque;20;Pizarra de la universidad, necesaria para poder dar clase y retransmitirla a estudiantes que no se quieren sentar delante
+Biblia de conocimiento;EquipajeAtaque;30;Guia exacta de como abordarn todos los temas de estudio para enseñarlo a tus estudiantes
+Teclado desgastado desgastado;EquipajeAtaque;10;Teclado que te dieron en la empresa como becario
+Teclado imbuido;EquipajeAtaque;30;Voces de antiguos programadores se pueden escuchar salir de sus teclas
+Chat GPT;EquipajeAtaque;100;Poderosa herramienta mística, no sabes como funciona pero si que sabes que te roba de tu ser a cada pregunta que le haces
+
