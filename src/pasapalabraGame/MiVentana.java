@@ -52,7 +52,7 @@ public class MiVentana extends JFrame {
         
         //dificultad---------------------------------------------------------------------
         
-        // Evento para cerrar el diálogo al pulsar el botón
+        // Evento para cerrar el dialogo al pulsar el boton
         infantil.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -61,34 +61,34 @@ public class MiVentana extends JFrame {
                 
             }
         });
-        // Evento para cerrar el diálogo al pulsar el botón
+        // Evento para cerrar el dialogo al pulsar el boton
         Facil.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            	miDialogo.dispose(); // Cierra y libera memoria del diálogo
+            	miDialogo.dispose(); // Cierra y libera memoria del dialogo
             	pasapalabra pasa = new pasapalabra(2, nombre);
      
             }
         });
-        // Evento para cerrar el diálogo al pulsar el botón
+        // Evento para cerrar el dialogo al pulsar el botón
         Medio.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            	miDialogo.dispose(); // Cierra y libera memoria del diálogo
+            	miDialogo.dispose(); // Cierra y libera memoria del dialogo
             	pasapalabra pasa = new pasapalabra(3, nombre);
        
             }
         });
-        // Evento para cerrar el diálogo al pulsar el botón
+        // Evento para cerrar el dialogo al pulsar el boton
         Avanzado.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-            	miDialogo.dispose(); // Cierra y libera memoria del diálogo
+            	miDialogo.dispose(); // Cierra y libera memoria del dialogo
             	pasapalabra pasa = new pasapalabra(4, nombre);
      
             }
         });
-        // Evento para cerrar el diálogo al pulsar el botón
+        // Evento para cerrar el dialogo al pulsar el boton
         PalabrasIconicas.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
